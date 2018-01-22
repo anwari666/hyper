@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-		<title>Hyperjourney Online Store Revamp</title>
+		<title>Hyperjourney - New Travel Experience</title>
 		<meta name="description" content="Free Bootstrap 4 Theme by ProBootstrap.com">
 		<meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
     
@@ -27,6 +27,18 @@
     <link rel="stylesheet" href="assets/css/helpers.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <style type="text/css">
+      .probootstrap_navbar{background-color: transparent;}
+
+      footer {
+        background: #1d2227;
+        color: #515e6e;
+      }
+      footer a {
+        color: #158640;
+      }
+    </style>
+
 	</head>
 	<body>
   
@@ -34,24 +46,12 @@
     <nav class="navbar navbar-expand-lg navbar-dark probootstrap_navbar" id="probootstrap-navbar">
       <div class="container">
         <a class="navbar-brand" href="/">Hyperjourney</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-menu" aria-controls="probootstrap-menu" aria-expanded="false" aria-label="Toggle navigation">
-          <span><i class="ion-navicon"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="probootstrap-menu">
-          <!-- <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="city-guides.html">City Guides</a></li>
-            <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="travel.html">Travel With Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          </ul> -->
-        </div>
       </div>
     </nav>
     <!-- END nav -->
     
 
-    <section class="probootstrap-cover overflow-hidden relative"  style="background-image: url('assets/images/dan-gribbin-50366.jpg'); background-position: center top" data-stellar-background-ratio="0.5"  id="section-home">
+    <section class="probootstrap-cover overflow-hidden relative"  style="background-image: url('assets/images/dan-gribbin-50366.jpg'); background-position: right top" data-stellar-background-ratio="0.5"  id="section-home">
       <div class="overlay"></div>
       <div class="container">
         <div class="row align-items-center">
@@ -62,27 +62,35 @@
             <h2 class="heading display-4 font-light probootstrap-animate" style="margin-bottom: 80px">Travel, Learn, Respect.</h2>
             <!-- <p class="probootstrap-animate mb-4" style="color: white">Be the first to know when we launch.</p> -->
             
-            <!-- <form action="#" class="probootstrap-animate mb60">
+            <form class="probootstrap-animate mb60" action="https://api.elasticemail.com/contact/add?version=2" method="post" id="ewf_subscriptionForm">
                 <div class="row mb-3">
-                  <div class="col-md-6">
+                  <div class="col-md-8 col-lg-8">
                     <div class="form-group">
                       <p class="lead mb60 probootstrap-animate">Be the first to know when we launch.</p>
                       <label for="email" class="sr-only sr-only-focusable">Email</label>
-                      <input type="email" class="form-control" id="email" name="email" placeholder="enter your email" style="font-size: 1.3em;padding: 0.9rem 1rem;">
+                      <input type="email" class="form-control" id="email"  name="email" placeholder="enter your email" aria-label="enter your email" required="" style="font-size: 1.3em;padding: 0.9rem 1rem;">
                     </div>
                   </div>
                 </div>
 
-                <div class="row">
-                  
+                <div class="row">                  
                   <div class="col-md">
                     <div class="form-group">
-                      <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Subscribe">
+                      <input class="btn btn-primary" name="submit" value="Subscribe" id="eesubmit" type="submit">
                     </div>
                   </div>
                 </div>
+
+                <!-- things for elasticemail -->
+                <input name="publiclistid" id="eDBBxCqF" value="2786121e-7471-4d17-91bc-ad35c14d5449" checked="checked" type="checkbox" style="display: none;">
+                <input name="publicaccountid" value="e8a4f597-275c-449d-9813-965be6217ef7" type="hidden">
+                <input name="returnUrl" value="https://hyperjourney.com/subscribed.html" type="hidden">
+                <input name="activationReturnUrl" value="https://hyperjourney.com/thank-you.html" type="hidden">
+                <input name="activationTemplate" value="subscription_confirmation" type="hidden">
+                <input name="source" value="WebForm" type="hidden">
+                <input name="notifyEmail" value="ilman@hyperjourney.com" type="hidden">
               
-            </form> -->
+            </form>
 
             <p  class="mb60 font-light probootstrap-animate"><small>Photo by <a href="https://unsplash.com/photos/_xK2_-AMzX4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" >Dan Gribbin</a></small></p>
 
@@ -101,50 +109,16 @@
     <!-- END section -->
     
 
-    <footer class="" style="background-color: #090f17;color: #444350;">
+    <footer class="probootstrap_section" style="">
       <div class="container">
-        <!-- <div class="row mb-5"> -->
-          <!-- <div class="col-md-3">
-            <h3 class="probootstrap_font-18 mb-3">Quick Links</h3>
-            <ul class="list-unstyled">
-              <li><a href="https://free-template.co" target="_blank">Home</a></li>
-              <li><a href="https://free-template.co" target="_blank">About</a></li>
-              <li><a href="https://free-template.co" target="_blank">Services</a></li>
-              <li><a href="https://free-template.co" target="_blank">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="col-md-3">
-            <h3 class="probootstrap_font-18 mb-3">Quick Links</h3>
-            <ul class="list-unstyled">
-              <li><a href="https://free-template.co" target="_blank">Home</a></li>
-              <li><a href="https://free-template.co" target="_blank">About</a></li>
-              <li><a href="https://free-template.co" target="_blank">Services</a></li>
-              <li><a href="https://free-template.co" target="_blank">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h3 class="probootstrap_font-18 mb-3">Quick Links</h3>
-            <ul class="list-unstyled">
-              <li><a href="https://free-template.co" target="_blank">Home</a></li>
-              <li><a href="https://free-template.co" target="_blank">About</a></li>
-              <li><a href="https://free-template.co" target="_blank">Services</a></li>
-              <li><a href="https://free-template.co" target="_blank">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3">
-            <h3 class="probootstrap_font-18 mb-3">Quick Links</h3>
-            <ul class="list-unstyled">
-              <li><a href="https://free-template.co" target="_blank">Home</a></li>
-              <li><a href="https://free-template.co" target="_blank">About</a></li>
-              <li><a href="https://free-template.co" target="_blank">Services</a></li>
-              <li><a href="https://free-template.co" target="_blank">Contact</a></li>
-            </ul>
-          </div> -->
-        <!-- </div> -->
-        <div class="row pt-5">
+        <div class="row pt-5 mb-3">
           <div class="col-md-12 text-center">
-            <p class="probootstrap_font-14">HYPERJOURNEY &copy;2018.<br> Designed &amp; developed in Lisbon.<br>Template by <a href="https://probootstrap.com/" target="_blank">ProBootstrap</a></p>
+            <p class="mb-3">
+              <a href="tos.html">Terms of Service</a>&nbsp; &nbsp;  | &nbsp; &nbsp; 
+              <a href="privacy.html">Privacy Policy</a>&nbsp; &nbsp;  | &nbsp; &nbsp; 
+              <!-- <a href="faq.html">Frequently Asked Questions</a>&nbsp; &nbsp;  | &nbsp; &nbsp;  -->
+              <a href="return.html">Returns & Refunds</a></p>
+            <p class="probootstrap_font-14">HYPERJOURNEY &copy;2018.<br> Designed &amp; developed in Lisbon | Template by <a href="https://probootstrap.com/" rel="nofollow" target="_blank">ProBootstrap</a></p>
           </div>
         </div>
       </div>
